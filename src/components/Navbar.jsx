@@ -17,14 +17,14 @@ const Navbar = () => {
         <a href="https://github.com/victordavid11">
           <FaGithub />
         </a>
-        <a href="https://x.com/Victordavid_124">
+        {/* <a href="https://x.com/Victordavid_124">
           {" "}
           <FaXTwitter />
         </a>
         <a href="https://www.instagram.com/callhim_victordavid/profilecard/?igsh=bHAzdGs5dXl3dmc2">
           {" "}
           <FaInstagram />
-        </a>
+        </a> */}
       </div>
     </nav>
   );

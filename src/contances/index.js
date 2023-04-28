@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project1.jpg";
 import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
 import project4 from "../assets/projects/project4.jpg";
+import project5 from "../assets/projects/P5.png"
 
 export const HERO_CONTENT = `Full stack developer with a passion for photography. I create visually appealing
 websites that are easy to use. With skills in coding, design, and problemsolving, I aim to build websites that make a lasting impact.`;
@@ -20,7 +21,7 @@ export const PROJECTS = [
     link: "https://my-project-frontend-r05g.onrender.com",
     description:
       "A fully functional full stack food e-commerce website with features like product listing, cart, and user authentication.",
-    technologies: ["HTML", "CSS", "MERN",],
+    technologies: ["HTML", "CSS", "MERN"],
   },
   {
     title: "Expense Tracker",
@@ -31,11 +32,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Travel Agency",
-    image: project3,
-    link: "https://vermillion-haupia-10619b.netlify.app/", 
+    title: "Photography portfolio",
+    image: project5,
+    link: "https://victordavid-image.vercel.app/",
     description:
-      "A static Travel Agency webpage that showcases various travel destinations, provides booking options, and highlights services such as tours and travel packages, with a clean, user-friendly design for seamless navigation and engaging visuals to inspire travel plans.",
+      "A modern photography portfolio and booking platform designed to showcase stunning visual work while allowing clients to easily schedule sessions online. Built with a clean, responsive interface focused on elegance, performance, and user experience.",
     technologies: ["HTML", "CSS", "Bootstrap", "Tailwind"],
   },
   {
